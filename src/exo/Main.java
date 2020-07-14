@@ -5,8 +5,7 @@ import java.util.stream.Collectors;
 
 public class Main {
     public static void main(String[] args) {
-        demoFlatMap();
-        // https://github.com/inuth/irisJava8
+        // demoFlatMap();
 
         List<Animal> animaux = generationAnimaux();
 
@@ -25,12 +24,6 @@ public class Main {
         an.add(new ArrayList<Animal>());
         an.add(new ArrayList<Animal>());
 
-        for (List<Animal> listA : an){
-            for (Animal a : listA){
-                for (Integer i : a.getRepas())
-            }
-        }
-
         an.get(0).add(new Animal("aa").ajoutRepas(1,3));
         an.get(0).add(new Animal("bb").ajoutRepas(5,7));
 
@@ -45,6 +38,7 @@ public class Main {
 
         heuresRepas.forEach(h -> System.out.println(h));
     }
+
     public static List<Animal> generationAnimaux(){
         return Arrays.asList(
                 new Animal("012")
