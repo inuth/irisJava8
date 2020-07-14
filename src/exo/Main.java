@@ -23,9 +23,9 @@ public class Main {
         Stream<Animal> streamAnimaux = animaux.stream()
                 .filter(a -> a.getId() < 4);
         streamAnimaux.forEach(a -> System.out.println(a.getId()));
+        System.out.println("------------ PRAY ------------");
+        animalService.animauxPrio(17, animaux).forEach(a -> System.out.println(a.getId()));
 
-
-        // streamAnimaux.forEach(a -> System.out.println(a.getNumLocal()));
     }
     public static void demoFlatMap(){
         List<List<Animal>> an = new ArrayList<>();
