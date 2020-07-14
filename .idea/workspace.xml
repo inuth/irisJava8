@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d832666d-2f14-4f01-adae-49b4300f601f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exo/AnimalService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exo/AnimalService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/exo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exo/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +35,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="step2.Main" />
       <module name="IrisJava8" />
@@ -70,8 +71,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -98,7 +99,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1594710128798</updated>
-      <workItem from="1594710133907" duration="17650000" />
+      <workItem from="1594710133907" duration="22373000" />
     </task>
     <servers />
   </component>
@@ -110,22 +111,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="123" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1594722752874" />
-    <state width="1493" height="278" key="GridCell.Tab.0.bottom" timestamp="1594725541943">
+    <state width="1493" height="235" key="GridCell.Tab.0.bottom" timestamp="1594734605856">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="278" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594725541943" />
-    <state width="1493" height="278" key="GridCell.Tab.0.center" timestamp="1594725541943">
+    <state width="1493" height="235" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594734605856" />
+    <state width="1493" height="235" key="GridCell.Tab.0.center" timestamp="1594734605856">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="278" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594725541943" />
-    <state width="1493" height="278" key="GridCell.Tab.0.left" timestamp="1594725541943">
+    <state width="1493" height="235" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594734605856" />
+    <state width="1493" height="235" key="GridCell.Tab.0.left" timestamp="1594734605856">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="278" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594725541943" />
-    <state width="1493" height="278" key="GridCell.Tab.0.right" timestamp="1594725541943">
+    <state width="1493" height="235" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594734605856" />
+    <state width="1493" height="235" key="GridCell.Tab.0.right" timestamp="1594734605856">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="278" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594725541943" />
+    <state width="1493" height="235" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594734605856" />
     <state x="277" y="56" key="SettingsEditor" timestamp="1594710380132">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

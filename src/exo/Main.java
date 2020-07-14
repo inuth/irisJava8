@@ -1,7 +1,9 @@
 package exo;
 
 import java.util.*;
+import java.util.function.BinaryOperator;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class Main {
     public static void main(String[] args) {
@@ -15,9 +17,15 @@ public class Main {
                 //.collect(Collectors.toList());
         AnimalService animalService = AnimalService.getInstance();
 
+        int x = animaux.size() > 4 ? 1 : 2;
+        // var x = CONDITION ? VALEUR_SI_VRAI : VALEUR_SI_FAUX
+
+        Stream<Animal> streamAnimaux = animaux.stream()
+                .filter(a -> a.getId() < 4);
+        streamAnimaux.forEach(a -> System.out.println(a.getId()));
 
 
-
+        // streamAnimaux.forEach(a -> System.out.println(a.getNumLocal()));
     }
     public static void demoFlatMap(){
         List<List<Animal>> an = new ArrayList<>();
