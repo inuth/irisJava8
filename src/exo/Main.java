@@ -1,19 +1,22 @@
 package exo;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 import java.util.stream.Collectors;
 
 public class Main {
     public static void main(String[] args) {
         demoFlatMap();
+        // https://github.com/inuth/irisJava8
 
         List<Animal> animaux = generationAnimaux();
 
+        Optional<Animal> animalMin = animaux.stream()
+                .sorted(Comparator.comparing(Animal::getId).reversed())
+                .min(Comparator.comparing(a -> a.getId()));
+                //.collect(Collectors.toList());
         AnimalService animalService = AnimalService.getInstance();
 
-        
+
 
 
     }
@@ -22,12 +25,19 @@ public class Main {
         an.add(new ArrayList<Animal>());
         an.add(new ArrayList<Animal>());
 
+        for (List<Animal> listA : an){
+            for (Animal a : listA){
+                for (Integer i : a.getRepas())
+            }
+        }
+
         an.get(0).add(new Animal("aa").ajoutRepas(1,3));
         an.get(0).add(new Animal("bb").ajoutRepas(5,7));
 
         an.get(1).add(new Animal("cc").ajoutRepas(2,4));
         an.get(1).add(new Animal("dd").ajoutRepas(6,8));
 
+        // but du flatMap : "applatir" un Stream<Stream<?>> en Stream<?>
         List<Integer> heuresRepas = an.stream()
                 .flatMap(a -> a.stream())
                 .flatMap(a -> a.getRepas().stream())
